@@ -1,19 +1,22 @@
 .mainDiv {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 
   width: 100%;
   height: 200px;
 
-  border-bottom: 1px solid #6643b5;
-
+  margin: 30px auto 0 auto;
+  border-bottom: 2px solid #6643b5;
 }
 
 .mainDiv img {
-  width: 110px;
-  height: 110px;
+  width: 130px;
+  height: 130px;
 
-  margin-top: 60px;
-
+  margin: 0 auto;
   border-radius: 50%;
+}
+
+.mainDiv h1 {
+  text-align: center;
 }

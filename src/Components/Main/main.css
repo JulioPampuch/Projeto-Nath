@@ -1,0 +1,22 @@
+.sectionIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.sectionIcons .icons {
+  width: 170px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+  text-align: center
+}
+
+.sectionIcons .icons p {
+  font-size: 18px;
+}
