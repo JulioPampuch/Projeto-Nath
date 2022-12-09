@@ -1,0 +1,19 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 200px;
+
+  border-bottom: 1px solid #6643b5;
+
+}
+
+.mainDiv img {
+  width: 110px;
+  height: 110px;
+
+  margin-top: 60px;
+
+  border-radius: 50%;
+}
